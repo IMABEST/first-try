@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMA</title>
+  </head>
+  <link rel="stylesheet" href="alert.css" />
+  <body>
+    <div class="btn">
+      <button type="button" onclick="checker()">OK</button>
+    </div>
+    <div class="popup" id="popup">
+      <div class="header1">
+        GET 10% OFF YOUR FIRST ORDER
+        <p class="brk-button">To get am right if at all</p>
+      </div>
+
+      <div class="header2">
+        And be the first to hear about our new product.
+        <p class="imaone">drop! IMA &#129505;</p>
+      </div>
+
+      <label class="fname">First name</label>
+
+      <input
+        class="first-name-placeholder"
+        type="text"
+        placeholder="Just enter your first name"
+      />
+      <label class="emai">Email</label>
+      <input
+        class="second-name-placeholder"
+        type="email"
+        placeholder="enter your email fess"
+      />
+      <button class="butin">GET 10% OFF NOW-Enjoy!</button>
+      <button class="cls-btn" type="button" onclick="checker(``)">X</button>
+    </div>
+    <!----<script> 
+      let popup = document.querySelector(".popup");
+      let openPopup= document.querySelector(".btn");
+      let closePopup = document.querySelector(".cls-btn");
+
+      openPopup.addEventListener(`click`, ()=> {
+       ;
+      })
+       closePopup.addEventListener(`click`, ()=> {
+        ;
+      })
+
+      function () {
+        popup.classList.add(".open-popup");
+      }
+      function closePopup() {
+        popup.classList.remove(".open-popup");
+      }
+    </script>----->
+
+    <!---<script>
+      alert(" ");
+    </script>-->
+    <!---<script>
+      function checker() {
+        var result = confirm();
+        if (result === false) {
+          event.preventDefault();
+        }
+      } 
+    </script>--->
+  </body>
+</html>
